@@ -1,0 +1,151 @@
+/* Desktop */
+
+@media screen and (min-width: 1100px) {
+    #logo {
+        width: 20%;
+        padding: 5px 0;
+    }
+    #logo img {
+        margin-left: -10px;
+        margin-bottom: -10px;
+        width: 60%;
+    }
+    #banner img {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+        background-color: #fff;
+    }
+    .featured-work {
+        text-align: center;
+    }
+    .featured-work img {
+        width: 75%;
+        padding: 0px;
+        margin: 0px;
+    }
+    figure {
+        flex-shrink: 0.5;
+        width: 40%;
+    }
+    .projects {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+
+/* TABLETS */
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+    #logo {
+        width: 20%;
+        padding: 5px 0;
+    }
+    #logo img {
+        margin-left: -20px;
+        margin-bottom: -5px;
+        margin-top: 10px;
+        width: 60%;
+    }
+    #banner img {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+        background-color: #fff;
+    }
+    figure {
+        flex-shrink: 0.5;
+        width: 49%;
+        border-radius: 10px;
+    }
+    figcaption {
+        text-align: center;
+    }
+    .projects {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 700px) {
+    #logo {
+        width: 40%;
+        padding: 5px 0;
+    }
+    #logo img {
+        margin-bottom: -10px;
+        margin-top: 10px;
+        width: 50%;
+    }
+    #banner img {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fff;
+    }
+    figure {
+        flex-shrink: 0;
+        width: 100%;
+        padding: 0px;
+    }
+    .projects {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.featured-work {
+    text-align: center;
+}
+
+.featured-work img {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #89729E;
+}
+
+h1,
+h2 {
+    font-family: 'Amatic SC', cursive;
+    line-height: .8em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #89729E;
+    align-items: center;
+}
